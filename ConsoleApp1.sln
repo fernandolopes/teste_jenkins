@@ -7,13 +7,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "ConsoleApp1\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{F3598722-4F02-480C-B59E-21069AB77E99}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1.Domain", "ConsoleApp1.Domain\ConsoleApp1.Domain.csproj", "{AE282B48-6ACB-4D4C-97CD-7727B5484152}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1.Domain", "ConsoleApp1.Domain\ConsoleApp1.Domain.csproj", "{AE282B48-6ACB-4D4C-97CD-7727B5484152}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Facade", "1 - Facade", "{B56A9A37-6C71-47BE-BD0F-51977B7C49CA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Repository", "3 - Repository", "{031A7732-9E2D-41B0-A8A0-9A7F0F39C371}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp2.Repository", "ConsoleApp1.Repository\ConsoleApp1.Repository.csproj", "{B905D046-7DA5-4C1B-B591-BACFC540442F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1.Repository", "ConsoleApp1.Repository\ConsoleApp1.Repository.csproj", "{B905D046-7DA5-4C1B-B591-BACFC540442F}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{8EE4F345-217C-4216-9977-A2BA62900CAC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{B905D046-7DA5-4C1B-B591-BACFC540442F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B905D046-7DA5-4C1B-B591-BACFC540442F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B905D046-7DA5-4C1B-B591-BACFC540442F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EE4F345-217C-4216-9977-A2BA62900CAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EE4F345-217C-4216-9977-A2BA62900CAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EE4F345-217C-4216-9977-A2BA62900CAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EE4F345-217C-4216-9977-A2BA62900CAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
