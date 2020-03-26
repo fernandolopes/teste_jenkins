@@ -3,6 +3,3 @@ version: '2.0'
 services:
   consoleapp1:
     image: localhost:8084/repository/mydocker:consoleapp1
-    build:
-      context: .
-      dockerfile: ConsoleApp1/Dockerfile
